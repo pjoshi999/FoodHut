@@ -143,8 +143,8 @@
     }
   }
 })({"1xC6H":[function(require,module,exports) {
-var Refresh = require("505ec7051ca95690");
-var ErrorOverlay = require("dbb79fcb8474c2e7");
+var Refresh = require("317ee3e0f6dc9052");
+var ErrorOverlay = require("aea22272e0bb232c");
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {};
 window.$RefreshSig$ = function() {
@@ -163,7 +163,7 @@ window.addEventListener("parcelhmraccept", ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"505ec7051ca95690":"786KC","dbb79fcb8474c2e7":"1dldy"}],"eekvz":[function(require,module,exports) {
+},{"317ee3e0f6dc9052":"786KC","aea22272e0bb232c":"1dldy"}],"eekvz":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -589,8 +589,8 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
-var _react = require("8afdb40998cc56df");
-var _jsxRuntime = require("df6c6f2f76d1f672");
+var _react = require("c4f25a73d44b6c23");
+var _jsxRuntime = require("cef05b7f3ba1509d");
 const Section = ({ title , description , isVisible , setIsVisible  })=>{
     return /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
         className: "py-5 px-56 bg-[url(https://tailwindcss.com/_next/static/media/hero-dark@90.dba36cdf.jpg)]",
@@ -759,6 +759,6 @@ $RefreshReg$(_c1, "Faq");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"8afdb40998cc56df":"21dqq","df6c6f2f76d1f672":"6AEwr","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["1xC6H","eekvz"], null, "parcelRequire5906")
+},{"c4f25a73d44b6c23":"21dqq","cef05b7f3ba1509d":"6AEwr","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["1xC6H","eekvz"], null, "parcelRequire5906")
 
 //# sourceMappingURL=Faq.e8ba7340.js.map

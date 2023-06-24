@@ -143,8 +143,8 @@
     }
   }
 })({"1xC6H":[function(require,module,exports) {
-var Refresh = require("505ec7051ca95690");
-var ErrorOverlay = require("dbb79fcb8474c2e7");
+var Refresh = require("317ee3e0f6dc9052");
+var ErrorOverlay = require("aea22272e0bb232c");
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {};
 window.$RefreshSig$ = function() {
@@ -163,7 +163,7 @@ window.addEventListener("parcelhmraccept", ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"505ec7051ca95690":"786KC","dbb79fcb8474c2e7":"1dldy"}],"1NuWQ":[function(require,module,exports) {
+},{"317ee3e0f6dc9052":"786KC","aea22272e0bb232c":"1dldy"}],"1NuWQ":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -589,13 +589,13 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = exports.About = void 0;
-var _react = _interopRequireWildcard(require("a567f564fdcf535"));
-var _reactRouterDom = require("57162868b6f85c5e");
-var _ProfileFunctional = _interopRequireDefault(require("51ef67556990bd92"));
-var _ProfileClass = _interopRequireDefault(require("4cff203a410b3b76"));
-var _UserContext = _interopRequireDefault(require("63b5cbf164890f5b"));
-var _Profile = _interopRequireDefault(require("24161f882b51e1bc"));
-var _jsxRuntime = require("6dd8ce302d5df289");
+var _react = _interopRequireWildcard(require("3ea11eebec35d994"));
+var _reactRouterDom = require("492ca34a45e49aa9");
+var _ProfileFunctional = _interopRequireDefault(require("ef5cff9a89f458ec"));
+var _ProfileClass = _interopRequireDefault(require("293c6b5dc4449705"));
+var _UserContext = _interopRequireDefault(require("b9af4188d0ccd238"));
+var _Profile = _interopRequireDefault(require("74a52f277043e3f6"));
+var _jsxRuntime = require("c57fa82163afd29d");
 function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : {
         default: obj
@@ -760,7 +760,7 @@ var _default = About;
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","a567f564fdcf535":"21dqq","57162868b6f85c5e":"9xmpe","51ef67556990bd92":"bJxHo","4cff203a410b3b76":"72CRz","63b5cbf164890f5b":"9LAud","6dd8ce302d5df289":"6AEwr","24161f882b51e1bc":"fxpnI"}],"bJxHo":[function(require,module,exports) {
+},{"@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","3ea11eebec35d994":"21dqq","492ca34a45e49aa9":"9xmpe","ef5cff9a89f458ec":"bJxHo","293c6b5dc4449705":"72CRz","b9af4188d0ccd238":"9LAud","c57fa82163afd29d":"6AEwr","74a52f277043e3f6":"fxpnI"}],"bJxHo":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$b50f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -772,8 +772,8 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
-var _react = require("1af32b9763c4e754");
-var _jsxRuntime = require("7d9714896611d368");
+var _react = require("5a91493eaefbf5dc");
+var _jsxRuntime = require("7baaba310e878347");
 const ProfileFunctional = (props)=>{
     // const [count, setCount] = useState(0);
     (0, _react.useEffect)(()=>{
@@ -812,9 +812,9 @@ $RefreshReg$(_c, "ProfileFunctional");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"1af32b9763c4e754":"21dqq","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","7d9714896611d368":"6AEwr"}],"fxpnI":[function(require,module,exports) {
-module.exports = require("87e73a172709a7ce").getBundleURL("glwyQ") + "Profile.58045a77.jpg" + "?" + Date.now();
+},{"5a91493eaefbf5dc":"21dqq","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","7baaba310e878347":"6AEwr"}],"fxpnI":[function(require,module,exports) {
+module.exports = require("d9ce48b9629de07b").getBundleURL("glwyQ") + "Profile.58045a77.jpg" + "?" + Date.now();
 
-},{"87e73a172709a7ce":"lgJ39"}]},["1xC6H","1NuWQ"], null, "parcelRequire5906")
+},{"d9ce48b9629de07b":"lgJ39"}]},["1xC6H","1NuWQ"], null, "parcelRequire5906")
 
 //# sourceMappingURL=About.bd13eb0f.js.map

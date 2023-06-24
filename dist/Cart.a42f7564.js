@@ -143,8 +143,8 @@
     }
   }
 })({"1xC6H":[function(require,module,exports) {
-var Refresh = require("505ec7051ca95690");
-var ErrorOverlay = require("dbb79fcb8474c2e7");
+var Refresh = require("317ee3e0f6dc9052");
+var ErrorOverlay = require("aea22272e0bb232c");
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {};
 window.$RefreshSig$ = function() {
@@ -163,7 +163,7 @@ window.addEventListener("parcelhmraccept", ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"505ec7051ca95690":"786KC","dbb79fcb8474c2e7":"1dldy"}],"lqVII":[function(require,module,exports) {
+},{"317ee3e0f6dc9052":"786KC","aea22272e0bb232c":"1dldy"}],"lqVII":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -589,12 +589,12 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
-var _reactRedux = require("e7e3ebe5cc4c8aa1");
-var _FoodItems = _interopRequireDefault(require("9a84333097e6d96f"));
-var _cartSlice = require("fa4ffea11de611f8");
-var _reactToastify = require("e04f51250c088617");
-require("3212795cb861d09b");
-var _jsxRuntime = require("8c74313e151f5fb");
+var _reactRedux = require("4fca074c8f126302");
+var _FoodItems = _interopRequireDefault(require("dfcb483529b687e"));
+var _cartSlice = require("3d6ed8f26f22fd32");
+var _reactToastify = require("dbc8a12ba750c9ce");
+require("f293f3488ace1f70");
+var _jsxRuntime = require("d62a4f5c7e6ade15");
 function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : {
         default: obj
@@ -682,7 +682,7 @@ $RefreshReg$(_c, "Cart");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","e7e3ebe5cc4c8aa1":"bdVon","9a84333097e6d96f":"827Cr","fa4ffea11de611f8":"5RXlr","8c74313e151f5fb":"6AEwr","e04f51250c088617":"kSvyQ","3212795cb861d09b":"gJP2Y"}],"827Cr":[function(require,module,exports) {
+},{"@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","4fca074c8f126302":"bdVon","dfcb483529b687e":"827Cr","3d6ed8f26f22fd32":"5RXlr","d62a4f5c7e6ade15":"6AEwr","dbc8a12ba750c9ce":"kSvyQ","f293f3488ace1f70":"gJP2Y"}],"827Cr":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$c82c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -694,8 +694,8 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
-var _config = require("3b407ca493272a79");
-var _jsxRuntime = require("2b5063bfbebc4614");
+var _config = require("cc9f34897cfad6ad");
+var _jsxRuntime = require("32f6e563d1d4d40d");
 const FoodItems = ({ name , description , imageId , price  })=>{
     return /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
         className: "flex justify-between items-center flex-row rounded-3xl cursor-pointer p-2 px-80 hover:bg-slate-100 hover:text-[#232b30]",
@@ -742,6 +742,6 @@ $RefreshReg$(_c, "FoodItems");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"3b407ca493272a79":"jtCLN","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","2b5063bfbebc4614":"6AEwr"}],"gJP2Y":[function() {},{}]},["1xC6H","lqVII"], null, "parcelRequire5906")
+},{"cc9f34897cfad6ad":"jtCLN","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","32f6e563d1d4d40d":"6AEwr"}],"gJP2Y":[function() {},{}]},["1xC6H","lqVII"], null, "parcelRequire5906")
 
 //# sourceMappingURL=Cart.a42f7564.js.map
